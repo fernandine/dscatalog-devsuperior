@@ -1,4 +1,4 @@
-package com.projetodevsuperior.sdcatalog;
+package com.projetodevsuperior.sdcatalog.entities;
 
 import java.io.Serializable;
 import java.time.Instant;
@@ -15,8 +15,6 @@ import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.Table;
-
-import com.projetodevsuperior.sdcatalog.entities.Category;
 
 @Entity
 @Table(name="tb_product")

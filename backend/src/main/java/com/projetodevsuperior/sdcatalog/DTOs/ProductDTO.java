@@ -6,8 +6,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
-import com.projetodevsuperior.sdcatalog.Product;
 import com.projetodevsuperior.sdcatalog.entities.Category;
+import com.projetodevsuperior.sdcatalog.entities.Product;
 
 public class ProductDTO implements Serializable {
 	private static final long serialVersionUID = 1L;
