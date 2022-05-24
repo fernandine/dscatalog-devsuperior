@@ -60,7 +60,7 @@ public class ProductRepositoryTests {
 		});
 
 	}
-
+/*
 	@Test
 	public void findByIdShouldReturnOptionalNotEmptyWhenExistingId() {
 
@@ -80,5 +80,7 @@ public class ProductRepositoryTests {
 			repository.findById(nonExistingId);
 		
 		});
+		
 	}
+	*/
 }
