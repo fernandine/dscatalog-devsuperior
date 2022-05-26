@@ -79,7 +79,7 @@ public class ProductServiceIT {
 	}
 	
 	@Test
-	public void findAllPagedShouldReturnSorteredPageWhenSortByName() {
+	public void findAllPagedShouldReturnSorteredPageWhenSortByName() throws Exception {
 
 		PageRequest pageRequest = PageRequest.of(0, 10, Sort.by("name"));
 
